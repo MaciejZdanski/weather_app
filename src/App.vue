@@ -1,13 +1,15 @@
+
 <template>
-  <HelloWorld/>
+  <WeatherView />
 </template>
 
 <script>
-
-
+import WeatherView from './components/WeatherView.vue'
 export default {
-  
-  
+  name: 'App',
+  components: {
+    WeatherView
+  }
 }
 </script>
 
@@ -18,6 +20,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
