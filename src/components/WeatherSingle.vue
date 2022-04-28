@@ -27,7 +27,27 @@ export default {
 }
 </script>
 
-<style>
-
-</style>  
+<style lang="scss">
+.item{
+  width:fit-content;
+  box-shadow:0 0 5px #000;
+  color:#fff;
+  background: linear-gradient(#777, #222);
+  border-radius:5px;
+  // border:2px dashed red;
+  padding:.5em;
+  font-weight:bold;
+  .icon{
+    border-radius:5px;
+    background:rgba(255, 255, 255, 0.283);
+    img{
+      width:100px;
+      height: 100px;
+    }
+  }
+  .temp{
+    margin:.5em;
+  }
+}
+</style> 
 

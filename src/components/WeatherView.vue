@@ -65,10 +65,33 @@ export default {
 }
 </script>
 
-<style>
-.dailyWrapper{
-    display:flex;
-    justify-content: center;
-    flex-wrap:wrap;
-}
+<style lang="scss">
+    .weatherView{
+        .cityPicker{
+        display:flex;
+        justify-content: center;
+        input{
+            padding:.02em;
+            font-size:1.5em;
+            // border:none;
+        }
+        button{
+            padding:.5em;
+            font-size:2em;
+            border:none;
+            background: linear-gradient(#777, #222);
+            color:#fff;
+            border-radius:.5px;
+        }
+        }
+        .currentWeather{
+        flex-direction: column;
+        align-items: center;
+        }
+        .dailyWrapper,.currentWeather{
+        display:flex;
+        justify-content: center;
+        flex-wrap:wrap;
+        }
+    }
 </style>
