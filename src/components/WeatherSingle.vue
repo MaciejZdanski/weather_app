@@ -30,16 +30,16 @@ export default {
 <style lang="scss">
 .item{
   width:fit-content;
-  box-shadow:0 0 5px #000;
+  box-shadow:0 0 5px rgb(0, 0, 0);
   color:#fff;
-  background: linear-gradient(#777, #222);
+  background: linear-gradient(rgb(120, 78, 78), rgb(74, 67, 67));
   border-radius:5px;
   // border:2px dashed red;
   padding:.5em;
   font-weight:bold;
   .icon{
     border-radius:5px;
-    background:rgba(255, 255, 255, 0.283);
+    background:rgba(80, 190, 96, 0.283);
     img{
       width:100px;
       height: 100px;

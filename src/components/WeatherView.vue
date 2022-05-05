@@ -20,6 +20,10 @@
       </div>
     </div>
 
+    <div class="forest">
+      <img class="img" src="forest.jpg">
+    </div>
+
   </div>
 </template>
 
